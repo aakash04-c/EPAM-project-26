@@ -1,7 +1,10 @@
-
 # Assignment No. 1
 
 This repository contains **Assignment No. 1** developed as part of the **EPAM Project 2026**. The project demonstrates the implementation of a responsive and interactive web application using core web technologies.
+
+## 🌐 Live Demo
+
+**Website:** https://epam-project-26.vercel.app/
 
 ## Features
 

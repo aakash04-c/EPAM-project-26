@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="BankOfBuddy - Your trusted banking partner for savings, investments, and business loans. Build your wealth and secure your dreams.">
+  <title>BankOfBuddy - Build Your Wealth. Secure Your Dreams.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <a href="./index.html" class="navbar-brand">
+        <svg class="brand-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M3 21V10L12 3L21 10V21H15V14H9V21H3Z" fill="#4052b5" />
+        </svg>
+        <span>BankOfBuddy</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="navbar-menu" id="navbarMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li class="has-dropdown">
+          <a href="#services" class="nav-link dropdown-toggle">Services
+            <svg width="10" height="6" viewBox="0 0 10 6" fill="none">
+              <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#savings">Savings Account</a></li>
+            <li><a href="#loan">Business Loan</a></li>
+            <li><a href="#services">All Services</a></li>
+          </ul>
+        </li>
+        <li><a href="#team" class="nav-link">Team</a></li>
+        <li class="has-dropdown">
+          <a href="#" class="nav-link dropdown-toggle">Login
+            <svg width="10" height="6" viewBox="0 0 10 6" fill="none">
+              <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./signup.html">Sign Up</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <p class="hero-subtitle">Your Money, Growing Safely</p>
+        <h1 class="hero-title">Build Your Wealth. Secure Your Dreams.</h1>
+        <p class="hero-description">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit, Ratione Accusamus Eius
+          Exercitationem Non Laborum, Nesciunt?</p>
+        <ul class="hero-features">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="9" fill="#43b97f" />
+              <path d="M5 9L8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Flexible Tenures
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="9" fill="#43b97f" />
+              <path d="M5 9L8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Competitive Interest Rates
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="9" fill="#43b97f" />
+              <path d="M5 9L8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Assured Returns
+          </li>
+        </ul>
+        <a href="#services" class="btn btn-primary">Open Account</a>
+      </div>
+      <div class="hero-image">
+        <img src="./images/hero.jpg" alt="Professional woman with laptop helping you build wealth">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-card-image">
+            <img src="./images/eligibility.jpg" alt="Check your eligibility online">
+          </div>
+          <p class="service-card-title">Check Your Eligibility</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card-image">
+            <img src="./images/account.jpg" alt="Open your bank account">
+          </div>
+          <p class="service-card-title">Open Your Account</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card-image">
+            <img src="./images/investing.jpg" alt="Start investing today">
+          </div>
+          <p class="service-card-title">Start Investing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACCOUNT FEATURE SECTION ========== -->
+  <section class="account-feature" id="account">
+    <div class="container">
+      <div class="account-card">
+        <div class="account-summary">
+          <p class="section-subtitle">Your Account</p>
+          <h2 class="section-title">Manage Your Money</h2>
+          <p class="account-text">Add funds or make a deposit instantly and keep track of your balance in real time.</p>
+          <div class="balance-box">
+            <span class="balance-label">Available Balance</span>
+            <span class="balance-amount" id="balanceAmount">₹0.00</span>
+          </div>
+        </div>
+
+        <div class="account-actions">
+          <form class="money-form" id="addMoneyForm">
+            <h3>Add Money</h3>
+            <input type="number" id="addMoneyAmount" min="1" step="0.01" placeholder="Enter amount in ₹" required>
+            <button type="submit" class="btn btn-primary">Add Money</button>
+          </form>
+
+          <form class="money-form" id="depositMoneyForm">
+            <h3>Deposit Money</h3>
+            <input type="number" id="depositMoneyAmount" min="1" step="0.01" placeholder="Enter amount in ₹" required>
+            <button type="submit" class="btn btn-outline">Deposit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SAVINGS SECTION ========== -->
+  <section class="feature-section" id="savings">
+    <div class="container feature-container">
+      <div class="feature-content">
+        <p class="feature-subtitle">Ready To Start Saving?</p>
+        <h2 class="feature-title">Open Your Savings Account Today!</h2>
+        <p class="feature-description">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ipsum Odit, Eaque Quasi
+          Sit In Aut?</p>
+        <ul class="feature-list">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="9" fill="#43b97f" />
+              <path d="M5 9L8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Higher Interest Rates
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="9" fill="#43b97f" />
+              <path d="M5 9L8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Easy Access To Funds
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="9" fill="#43b97f" />
+              <path d="M5 9L8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Simple &amp; Convenient
+          </li>
+        </ul>
+        <a href="#" class="btn btn-primary">Open Account</a>
+      </div>
+      <div class="feature-image">
+        <img src="./images/savings.jpg" alt="Woman saving money in a piggy bank">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BUSINESS LOAN SECTION ========== -->
+  <section class="feature-section feature-section--reversed" id="loan">
+    <div class="container feature-container feature-container--reversed">
+      <div class="feature-image">
+        <img src="./images/loan.jpg" alt="Woman applying for a business loan">
+      </div>
+      <div class="feature-content">
+        <p class="feature-subtitle">Unlock Your Business Potential.</p>
+        <h2 class="feature-title">Get The Capital Your Business Needs To Thrive.</h2>
+        <p class="feature-description">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit, Provident Obcaecati Et
+          Molestiae, Id Ut Ipsum.</p>
+        <ul class="feature-list">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="9" fill="#43b97f" />
+              <path d="M5 9L8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Competitive Rates &amp; Transparent Terms.
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="9" fill="#43b97f" />
+              <path d="M5 9L8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Solutions For Every Business Type.
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <circle cx="9" cy="9" r="9" fill="#43b97f" />
+              <path d="M5 9L8 12L13 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Solutions For Every Business Type.
+          </li>
+        </ul>
+        <a href="#" class="btn btn-outline">Apply For Loan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LOAN PROCESS SECTION ========== -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Loan Process</p>
+        <h2 class="section-title">How It Works</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="process-step-number">1</div>
+          <h3 class="process-step-title">Apply Online</h3>
+          <p class="process-step-desc">Fill out a simple online application form with your basic details and loan
+            requirements.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-number">2</div>
+          <h3 class="process-step-title">Get Verified</h3>
+          <p class="process-step-desc">Our team reviews your application and verifies all the submitted documents
+            quickly.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-number">3</div>
+          <h3 class="process-step-title">Get Approved</h3>
+          <p class="process-step-desc">Receive approval notification with loan terms, interest rates, and repayment
+            schedule.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-number">4</div>
+          <h3 class="process-step-title">Receive Funds</h3>
+          <p class="process-step-desc">Funds are disbursed directly to your account within 24 hours of approval.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about-section" id="about">
+    <div class="container about-container">
+      <div class="about-content">
+        <p class="section-subtitle">About Us</p>
+        <h2 class="section-title">Why Choose BankOfBuddy?</h2>
+        <p class="about-text">We are a modern banking institution committed to providing exceptional financial services.
+          With years of experience and a customer-first approach, we help individuals and businesses achieve their
+          financial goals.</p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-target="15">0</span><span class="stat-suffix">K+</span>
+            <p class="stat-label">Happy Customers</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="120">0</span><span class="stat-suffix">+</span>
+            <p class="stat-label">Branches</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+            <p class="stat-label">Satisfaction Rate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TEAM SECTION ========== -->
+  <section class="team-section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Our Team</p>
+        <h2 class="section-title">Meet The Experts</h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+              <circle cx="40" cy="40" r="40" fill="#e8eaf6" />
+              <circle cx="40" cy="30" r="14" fill="#4052b5" />
+              <ellipse cx="40" cy="62" rx="22" ry="14" fill="#4052b5" />
+            </svg>
+          </div>
+          <h3 class="team-name">Rajesh Kumar</h3>
+          <p class="team-role">CEO & Founder</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+              <circle cx="40" cy="40" r="40" fill="#e8f5e9" />
+              <circle cx="40" cy="30" r="14" fill="#43b97f" />
+              <ellipse cx="40" cy="62" rx="22" ry="14" fill="#43b97f" />
+            </svg>
+          </div>
+          <h3 class="team-name">Priya Sharma</h3>
+          <p class="team-role">Chief Financial Officer</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+              <circle cx="40" cy="40" r="40" fill="#e3f2fd" />
+              <circle cx="40" cy="30" r="14" fill="#2196f3" />
+              <ellipse cx="40" cy="62" rx="22" ry="14" fill="#2196f3" />
+            </svg>
+          </div>
+          <h3 class="team-name">Amit Patel</h3>
+          <p class="team-role">Head of Technology</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+              <circle cx="40" cy="40" r="40" fill="#fce4ec" />
+              <circle cx="40" cy="30" r="14" fill="#e91e63" />
+              <ellipse cx="40" cy="62" rx="22" ry="14" fill="#e91e63" />
+            </svg>
+          </div>
+          <h3 class="team-name">Sneha Reddy</h3>
+          <p class="team-role">Marketing Director</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Get In Touch</p>
+        <h2 class="section-title">Contact Us</h2>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M10 1C6.13 1 3 4.13 3 8C3 13.25 10 19 10 19C10 19 17 13.25 17 8C17 4.13 13.87 1 10 1ZM10 10.5C8.62 10.5 7.5 9.38 7.5 8C7.5 6.62 8.62 5.5 10 5.5C11.38 5.5 12.5 6.62 12.5 8C12.5 9.38 11.38 10.5 10 10.5Z"
+                fill="#4052b5" />
+            </svg>
+            <div>
+              <h4>Address</h4>
+              <p>123 Banking Street, Mumbai, India</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M2 4C2 3.45 2.45 3 3 3H17C17.55 3 18 3.45 18 4V16C18 16.55 17.55 17 17 17H3C2.45 17 2 16.55 2 16V4ZM3 4L10 9L17 4"
+                stroke="#4052b5" stroke-width="1.5" fill="none" />
+            </svg>
+            <div>
+              <h4>Email</h4>
+              <p>info@bankofbuddy.com</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M4.01 3.03C3.46 3.03 3 3.49 3 4.04C3 11.06 8.94 17 15.96 17C16.51 17 16.97 16.54 16.97 15.99V13.52C16.97 12.97 16.51 12.51 15.96 12.51C14.76 12.51 13.59 12.31 12.51 11.94C12.39 11.9 12.27 11.88 12.15 11.88C11.83 11.88 11.52 12 11.28 12.24L9.62 13.9C7.57 12.85 5.97 11.24 4.93 9.18L6.59 7.52C6.91 7.2 7.01 6.75 6.87 6.33C6.5 5.25 6.3 4.09 6.3 2.89C6.3 2.34 5.84 1.88 5.29 1.88H4.01V3.03Z"
+                fill="#4052b5" />
+            </svg>
+            <div>
+              <h4>Phone</h4>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="contactName" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="contactEmail" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="contactSubject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea id="contactMessage" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-col">
+        <h3 class="footer-heading">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home"><span class="footer-arrow">&rsaquo;</span> Home</a></li>
+          <li><a href="#about"><span class="footer-arrow">&rsaquo;</span> About</a></li>
+          <li><a href="#services"><span class="footer-arrow">&rsaquo;</span> Services</a></li>
+          <li><a href="./login.html"><span class="footer-arrow">&rsaquo;</span> Login</a></li>
+          <li><a href="#contact"><span class="footer-arrow">&rsaquo;</span> Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-heading">Newsletter</h3>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" id="newsletterEmail" placeholder="enter your email" required>
+          <button type="submit" class="btn btn-newsletter">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-heading">Follow Us</h3>
+        <ul class="social-links">
+          <li>
+            <a href="#">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M6.7 11.3L2.5 8.5V7.5L6.7 4.7V6.2L3.8 8L6.7 9.8V11.3Z" />
+                <path d="M8 3L10.5 13H9.2L6.7 3H8Z" />
+                <path d="M9.3 4.7L13.5 7.5V8.5L9.3 11.3V9.8L12.2 8L9.3 6.2V4.7Z" />
+              </svg>
+              Youtube
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path
+                  d="M13.6 2.4C12.1.9 10.1 0 8 0 3.6 0 0 3.6 0 8c0 1.4.4 2.8 1 4l-1 4 4-1c1.2.7 2.6 1 4 1 4.4 0 8-3.6 8-8 0-2.1-.9-4.1-2.4-5.6zM8 14.7c-1.2 0-2.4-.3-3.4-.9l-.2-.1-2.4.6.6-2.4-.2-.2c-.6-1-.9-2.2-.9-3.4C1.5 4.4 4.4 1.5 8 1.5c1.7 0 3.3.7 4.5 1.9s1.9 2.8 1.9 4.5c.1 3.7-2.8 6.8-6.4 6.8zm3.7-5.1c-.2-.1-1.2-.6-1.4-.7-.2-.1-.3-.1-.5.1-.1.2-.5.7-.6.8-.1.1-.2.2-.4.1-.2-.1-.8-.3-1.6-1-.6-.5-1-1.2-1.1-1.4-.1-.2 0-.3.1-.4l.3-.3c.1-.1.1-.2.2-.3.1-.1 0-.2 0-.3s-.5-1.2-.7-1.6c-.2-.4-.4-.4-.5-.4h-.4c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.2 1.6 2.4 3.8 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.2-.5 1.4-1 .2-.5.2-.9.1-1-.1-.1-.3-.2-.5-.3z" />
+              </svg>
+              Whatsapp
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path
+                  d="M8 0C5.8 0 5.6.01 4.7.05 3.8.09 3.2.22 2.7.42c-.55.2-.97.48-1.4.9C.88 1.74.6 2.16.4 2.7.2 3.2.07 3.8.03 4.7 0 5.6 0 5.8 0 8s.01 2.4.05 3.3c.04.9.17 1.5.37 2 .2.55.48.97.9 1.4.43.43.85.7 1.4.9.5.2 1.1.33 2 .37.9.04 1.1.05 3.3.05s2.4-.01 3.3-.05c.9-.04 1.5-.17 2-.37.55-.2.97-.48 1.4-.9.43-.43.7-.85.9-1.4.2-.5.33-1.1.37-2 .04-.9.05-1.1.05-3.3s-.01-2.4-.05-3.3c-.04-.9-.17-1.5-.37-2-.2-.55-.48-.97-.9-1.4C14.26.88 13.84.6 13.3.4 12.8.2 12.2.07 11.3.03 10.4 0 10.2 0 8 0zm0 1.44c2.14 0 2.39.01 3.23.05.78.04 1.2.16 1.48.27.37.14.64.32.92.6.28.28.46.55.6.92.11.28.23.7.27 1.48.04.84.05 1.1.05 3.23s-.01 2.39-.05 3.23c-.04.78-.16 1.2-.27 1.48-.14.37-.32.64-.6.92-.28.28-.55.46-.92.6-.28.11-.7.23-1.48.27-.84.04-1.1.05-3.23.05s-2.39-.01-3.23-.05c-.78-.04-1.2-.16-1.48-.27-.37-.14-.64-.32-.92-.6-.28-.28-.46-.55-.6-.92-.11-.28-.23-.7-.27-1.48C1.45 10.39 1.44 10.14 1.44 8s.01-2.39.05-3.23c.04-.78.16-1.2.27-1.48.14-.37.32-.64.6-.92.28-.28.55-.46.92-.6.28-.11.7-.23 1.48-.27C5.6 1.45 5.86 1.44 8 1.44zm0 2.45a4.1 4.1 0 100 8.22 4.1 4.1 0 000-8.22zm0 6.77a2.66 2.66 0 110-5.33 2.66 2.66 0 010 5.33zm5.23-6.94a.96.96 0 11-1.92 0 .96.96 0 011.92 0z" />
+              </svg>
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path
+                  d="M0 1.15C0 .51.52 0 1.17 0h13.66C15.48 0 16 .51 16 1.15v13.7c0 .64-.52 1.15-1.17 1.15H1.17C.52 16 0 15.49 0 14.85V1.15zM4.94 13.42V6.17H2.54v7.25h2.4zM3.74 5.13c.84 0 1.36-.55 1.36-1.24-.02-.71-.52-1.24-1.34-1.24-.82 0-1.36.53-1.36 1.24 0 .69.52 1.24 1.32 1.24h.02zM8.35 13.42V9.36c0-.22.02-.43.08-.59.16-.43.54-.88 1.18-.88.83 0 1.16.63 1.16 1.56v4h2.4V9.07c0-2.33-1.24-3.42-2.9-3.42-1.36 0-1.96.76-2.29 1.28h.03V6.17H5.62c.03.67 0 7.25 0 7.25h2.73z" />
+              </svg>
+              Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Created By Aakash Malviya | All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
